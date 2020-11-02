@@ -1,10 +1,7 @@
-#include <Windows.h>
+#include "Runner.h"
 
 #include <stdio.h>
 
-INT WINAPI wWinMain(HINSTANCE instance, HINSTANCE previousInstance, PWSTR commandLine, int commandShow)
+void PlatformUpdate(PlatformInput *input)
 {
-    MessageBoxA(NULL, "This is a message Box", "This is the caption of the message box", MB_OK);
-
-    return 0;
 }
